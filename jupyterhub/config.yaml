@@ -1,0 +1,11 @@
+proxy:
+  secretToken: "RANDOM_SECRET_HERE"
+auth:
+  type: dummy
+  dummy:
+    password: "jupyter"
+  admin:
+    users:
+      - admin
+singleuser:
+  defaultUrl: "/lab"
