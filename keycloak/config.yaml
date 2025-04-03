@@ -1,0 +1,6 @@
+realm: mycloudplatform
+clients:
+  - clientId: jupyterhub
+    secret: mysecret
+    redirectUris:
+      - http://localhost:8000/hub/oauth_callback
